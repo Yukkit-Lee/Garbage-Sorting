@@ -1,0 +1,42 @@
+<!--pages/login/login.wxml-->
+ <!-- 用户 openid -->
+ <view class="userinfo">
+    <button 
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+      size="default"
+      wx:if="{{flag===1}}"
+    ></button>
+    <view class="userinfo-nickname-wrapper">
+      <button class="userinfo-nickname" bindtap="onGetOpenid"     open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo" wx:if="{{flag===0}}">点击登录</button>
+    </view>
+    <text class="thenickname" user-select="{{true}}" decode>{{nickName}}</text>
+    <text decode>\n</text>
+    <view class="showpoint" wx:if="{{flag===1}}">垃圾兑换积分 :{{points}}</view>
+    <image src="/images/icon_refresh1.png" class="img" wx:if="{{flag===1}}" bindtap="refresh" ></image>
+    
+  </view>
+
+
+  <view class="userinfo2">
+
+   <view class="child1" bindtap="topage1" >
+<image src="/images/订单 (1).png" class="pic1"></image>
+<text class="options">个人信息</text>
+   </view>
+	<view class="child2" bindtap="topage2"  >
+    <image src="/images/礼盒 (1).png" class="pic1"></image>
+    <text class="options">积分商城</text>
+  </view>
+	<view class="child3" bindtap="topage3"  >
+    <image src="/images/讨论区 (2).png" class="pic1"></image>
+    <text class="options">环保广场</text>
+  </view>
+
+
+
+  </view>
+  <view class="ooo">
+<text class="Signal" decode>全民参与垃圾分类\n共享环保低碳生活</text>
+</view>

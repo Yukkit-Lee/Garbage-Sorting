@@ -1,0 +1,84 @@
+<!--pages/pointmarket/pointmarket.wxml-->
+<swiper class="banner" autoplay interval="3500" circular >
+  <swiper-item>
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600514670709&di=d8acf9c4a190dfc5604eeff521ff0b82&imgtype=0&src=http%3A%2F%2Fpic171.nipic.com%2Ffile%2F20180703%2F18154726_114842366083_2.jpg" mode="widthFix"></image>
+</swiper-item>
+  <swiper-item>
+  <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1907849125,3802878905&fm=26&gp=0.jpg" mode="widthFix"></image>
+</swiper-item>
+<swiper-item>
+  <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3148302511,2693697718&fm=15&gp=0.jpg"
+  mode="widthFix"></image>
+</swiper-item>
+
+
+</swiper>
+
+
+
+<view class="BIG">
+<view class="userinfo2">
+
+<view class="child1" bindtap="topage1" >
+<image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g1/M04/04/0B/ChMljV8IFOiIc9SiACp2iwS_6kcAAQVdwDcshQAKnaj063.jpg" class="pic1"></image>
+<text class="options">草莓（积分100）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g5/M00/00/0C/ChMkJ18IFN6IRyr2ABWwtZoAhfkAAwzgAJATMAAFbDN840.jpg" class="pic1"></image>
+ <text class="options">葡萄（积分150）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g5/M00/00/0C/ChMkJl8IGQGITfZBAFTpfFv1xNQAAwziwM3SjsAVOmU963.jpg" class="pic1"></image>
+ <text class="options">桑葚（积分150）</text>
+</view>
+
+
+
+</view>
+<view class="userinfo2">
+
+<view class="child1" bindtap="topage1" >
+<image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g1/M03/04/0B/ChMljV8IFMGIUueNACCsSMo0UoMAAQVdgM2hpkAIKxg695.jpg" class="pic1"></image>
+<text class="options">樱桃（积分100）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g1/M03/04/0B/ChMljV8IFLSIS3z_ACC88xGp0bEAAQVdgHd5gAAIL0L208.jpg" class="pic1"></image>
+ <text class="options">蓝莓（积分200）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g5/M00/00/0C/ChMkJl8IFKGITdDWACH_vhBFC3kAAwzfgJSh_sAIf_W363.jpg" class="pic1"></image>
+ <text class="options">荔枝（积分200）</text>
+</view>
+</view>
+<view class="userinfo2">
+
+<view class="child1" bindtap="topage1" >
+<image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g5/M00/00/0C/ChMkJl8IFJWIW4taAEdFfiR2z7YAAwzfQO1SmAAR0WW402.jpg" class="pic1"></image>
+<text class="options">苹果（积分100）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g2/M00/02/02/Cg-4WlVxR3qIDrFEABLBkXKSTqgAAEsbAD580oAEsGp528.jpg" class="pic1"></image>
+ <text class="options">柠檬（积分80）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g2/M00/07/0F/ChMlWV7GLQqIdMwuAC30zmjROK4AAPVBQJeTzAALfTm590.jpg" class="pic1"></image>
+ <text class="options">菠萝（积分200）</text>
+</view>
+</view>
+<view class="userinfo2">
+
+<view class="child1" bindtap="topage1" >
+<image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g2/M00/02/02/Cg-4WVVxR1KIDtNzAAdhGo_T1AcAAEsagPq90IAB2Ey627.jpg" class="pic1"></image>
+<text class="options">黄桃（积分150）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g2/M00/0F/04/Cg-4WVVtDNeIAvH_AARSj8Ea5EEAAEg1gMrmqgABFKn999.jpg" class="pic1"></image>
+ <text class="options">橘子（积分150）</text>
+</view>
+<view class="child1" bindtap="topage1"  >
+ <image src="https://desk-fd.zol-img.com.cn/t_s144x90c5/g2/M00/0A/00/ChMlWl5V2tKIBG8zAAtc_xYwkPMAANdoQFMWa8AC10X560.jpg" class="pic1"></image>
+ <text class="options">拼盘（积分300）</text>
+</view>
+</view>
+
+</view>

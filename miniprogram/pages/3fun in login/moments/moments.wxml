@@ -1,0 +1,25 @@
+<!--pages/3fun in login/moments/moments.wxml-->
+
+
+
+<image src="/images/icon_im_more.png" class="newcontent" bindtap="newcontent"></image>
+
+<view wx:for='{{testList}}' wx:for-item="item"  >
+  <view class="Picq">
+    <view class="use">
+    <image src="/images/匿名用户.png" class="ave"></image>
+    <view class="TimeClass">匿名用户</view>
+  </view>
+    <view >{{item.time}}</view>
+     <image src="{{item.fileID}}" mode="aspectFit" class="datapic"></image>
+     <view class="user">
+     <view class="LIkenum" >{{item.point}}</view>
+     <image src="/images/点赞.png" class="likes"  hover-class=" "bindtap="GetLike" data-id="{{item._id}}" data-idx="{{index}}" ></image>
+    </view>
+</view>
+</view>
+<view class="kefu-box">
+<view class="kefu-body" bindtap="onAikefu">
+    <text class="q-tx">发表你的环保动态</text>
+  </view>
+  </view>

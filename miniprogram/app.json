@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/ai/index",
+    "pages/ai/camera/camera",
+    "pages/ai/search",
+    "pages/ai/filter/filter",
+    "pages/sort/sort",
+    "pages/result/gan",
+    "pages/result/list",
+    "pages/result/commit",
+    "pages/login/login",
+    "pages/3fun in login/Userinfo/Userinfo",
+    "pages/3fun in login/pointmarket/pointmarket",
+    "pages/3fun in login/moments/moments","pages/edit/edit"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00cc77",
+    "navigationBarTitleText": "智能垃圾分类",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/ai/index",
+        "text": "识别",
+        "iconPath": "images/icon_ai_default.png",
+        "selectedIconPath": "images/icon_ai.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "images/icon_sort_default.png",
+        "selectedIconPath": "images/icon_sort.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "个人",
+        "iconPath": "images/icon_principal.png",
+        "selectedIconPath": "images/icon_principal (1).png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wx17128b374eab7c51"
+  ]
+}

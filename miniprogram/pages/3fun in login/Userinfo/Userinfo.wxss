@@ -1,0 +1,35 @@
+/* pages/Userinfo/Userinfo.wxss */
+Input{
+height: 80rpx;
+width: 270px;
+border: gray solid 2px;
+margin: 40rpx;
+border-radius: 5%;
+}
+
+.btn
+{
+  display: flex;
+}
+.Big
+{
+  position: absolute;
+   left: 35px;
+   top: 155px;
+
+
+} 
+
+.backgroundImg {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  
+  }
+
+  .placls
+  {
+font-weight: 500;
+color: black;
+  }

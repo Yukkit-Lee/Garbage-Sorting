@@ -1,0 +1,12 @@
+<!--pages/edit/edit.wxml-->
+<view class="input">
+  <form bindsubmit="bindFormSubmit">
+<textarea type="text" confirm-type="done" placeholder="在这里输入你想发表的内容^^" class='input-radius' placeholder-class="placestyle" show-confirm-bar name="textarea" cursor="4" ></textarea>
+<view class="uploadBtn">
+<button form-type="submit" type="primary" size="mini" plain> Upload </button>
+</view>
+</form>
+</view>
+<image src="/images/icon_photo.png" class="uploadpic" bindtap="doUpload"></image>
+<image  class="uploadpic2" src=""></image>
+

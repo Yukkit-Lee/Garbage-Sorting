@@ -1,0 +1,13 @@
+<!--pages/Userinfo/Userinfo.wxml-->
+<image class="backgroundImg" src="http://sjbz.fd.zol-img.com.cn/t_s750x1334c/g5/M00/00/00/ChMkJ1fJTeSIJYkJAAUPabMVLPoAAU9KQN99v0ABQ-B187.jpg" style="opacity:{{0.5}}"></image>
+<view class="Big">
+<form bindsubmit="BtnSub" >
+<input name="name" placeholder="输入姓名" class="Input" maxlength="4" placeholder-class="placls"></input>
+<input name="number" type="number" placeholder="输入手机号" class="Input" maxlength="11" placeholder-class="placls"></input>
+<input name="address" placeholder="输入您的详细住址" class="Input" placeholder-class="placls"></input>
+<view class="btn">
+<button type="default" form-type="submit" plain>提交</button>
+<button  type="default" form-type="reset" plain>重置</button>
+</view>
+</form>
+</view>

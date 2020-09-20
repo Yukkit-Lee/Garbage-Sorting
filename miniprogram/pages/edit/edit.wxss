@@ -1,0 +1,48 @@
+/* pages/edit/edit.wxss */
+.input-radius{
+  border-radius: 7px;
+  margin: 0 0 3px 12px;
+  width: 700rpx;
+  height: 550rpx;
+  background-color: blueviolet;
+}
+.input{
+margin-top: 10rpx;
+}
+
+.placestyle
+{
+
+  font-size: 110rpx;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.uploadpic
+{
+width: 80rpx;
+height: 80rpx;
+position: absolute;
+right: 18px;
+top: 280px;
+}
+
+.uploadBtn
+{
+height: 31.6px;
+width: 78px;
+background-color: pink;
+position: absolute;
+right: 145px;
+top: 285px;
+}
+.uploadpic2
+{
+width: 200rpx;
+height:200rpx;
+position: absolute;
+bottom: 20px;
+}

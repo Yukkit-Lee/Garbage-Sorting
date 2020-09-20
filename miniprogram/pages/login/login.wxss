@@ -1,0 +1,115 @@
+/* pages/login/login.wxss */
+.userinfo{
+  margin-top: 40rpx;
+  height: 200rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+
+}
+.userinfo2{
+  margin-top: 40rpx;
+  height: 200rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+.thenickname{
+margin-left: 30rpx;
+padding-bottom:20rpx;
+font-size: 40rpx;
+font-weight: 500;
+line-height:20rpx;
+    /*    85 * 39.6   */
+position: absolute;
+left: 150rpx;
+top: 60px;
+}
+
+.showpoint
+{
+  margin-top:70rpx;
+margin-left: 40rpx;
+font-size: 25rpx;
+color:#DCDCDC;
+
+}
+.img
+{
+height: 30rpx;
+width: 30rpx;
+position: absolute;
+top: 80px;
+left: 193px;
+}
+
+.child1{
+	/*子容器占据的比例*/
+	/*一共有三个子容器，1：1：1平分外部容器水平方向宽度*/
+	width: 375rpx;
+  height: 100px;
+  border-right: solid #DCDCDC ;
+  border-width: 1rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: column;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content:center;/*  设置一个大盒子内容水平居中*/
+}.child2{
+	/*子容器占据的比例*/
+	/*一共有三个子容器，1：1：1平分外部容器水平方向宽度*/
+	width: 375rpx;
+  height: 100px;
+  border-right: solid #DCDCDC ;
+  border-width: 1rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: column;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content:center;/*  设置一个大盒子内容水平居中*/
+}.child3{
+	/*子容器占据的比例*/
+	/*一共有三个子容器，1：1：1平分外部容器水平方向宽度*/
+	width: 375rpx;
+  height: 100px;
+  border-right: solid #DCDCDC ;
+  border-width: 1rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: column;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content:center;/*  设置一个大盒子内容水平居中*/
+}
+
+.pic1{
+width: 100rpx;
+height: 100rpx;
+
+}
+.options
+{
+font-weight: 320;
+font-size: 30rpx;
+}
+
+.Signal
+{
+font-size: 60rpx;
+font-weight: 200;
+
+color: gray;
+}
+.ooo{
+  position: absolute;
+left: 73px;
+top: 370px;
+}
